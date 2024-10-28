@@ -104,6 +104,54 @@ Exm: <a href="www.etc.com"> Click here <a/> href is an attribute in the anchor t
 
 
 
+7.Explain the global attributes in HTML, such as class, id, style, and title With Example.
+
+Ans: Global attribute in HTML are that attribute can use in almost evry element , some global attributes are  a.class b.id c.style d.title
+
+a.class : class attribute is used to assign one or more class to an element. The className can be used to apply css or targeting element in javascript. Multiple ekement can share the same classname . It's a powerfull way toapply stylesheet in multiple elements.
+
+Exm : <p class="text"> this isa p tag with class Name text </p>
+
+b.id : id atribute assign a iniqe identification to an HTML element. Unlike class an id should be uniqe within a document, meaning it can be used in only one element per page.
+
+Exm : <p id="uniqeID"> p tag with an uniqeID </p>
+
+style : style attribute used for assign inline css style to an specific element.It's a quick way to apply directly css property inline css style.
+
+Exm :<p id="uniqeID" style="color:red; font-weight:bold; background-color: green"> p tag with an uniqeID </p>
+
+title: title attribute provides additional information about an HTML element. When you hover over an element in most browser The title text will appear as a tooltip. It's commonly used for images.
+
+Exm : <a href="https://example.com" title="Visit Example.com">Visit our website!</a>
+
+
+
+
+8. What is the purpose of the alt attribute in an <img> tag?
+
+Ans : thealt attribute in a image tag provide alternative text for an image . Screen readers read the alt text aloud,making images accessible to visually impired users. This help discribe the image content to those who cannot see. Search engines use the alt text to understand the content of an image.
+
+Exm: <img src="flower.jpg" alt="A bright red flower" />
+
+
+
+
+9.Describe the href attribute and its role in the <a> tag? 
+
+Ans : The href attribute int a tag specifies the url the link should direct  user to when clicked..
+
+
+
+
+10. How does the target attribute work within an <a> tag? What is _blank?
+
+Ans : 
+The target attribute in an a tag controls where the linked document will open when the link is clicked. It is commonly used to specify whether the link should open in the same browser tab, a new tab, or a specific frame.
+
+
+
+
+
 {Step 3}
 
 11.How to add favicon in HTML & Why ?
